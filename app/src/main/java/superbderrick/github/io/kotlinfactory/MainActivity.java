@@ -5,6 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import recoder.Recorder;
+import recoder.RecorderFactory;
+import recoder.RecorderType;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("derrickTest mp " , mpRecorder.toString());
         Log.d("derrickTest mc" , mcRecorder.toString());
-
-
-
+        
     }
 }

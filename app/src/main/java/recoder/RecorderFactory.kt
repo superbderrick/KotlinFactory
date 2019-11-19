@@ -1,16 +1,16 @@
-package superbderrick.github.io.kotlinfactory
+package recoder
 
 
 class RecorderFactory {
     fun buildCar(type: RecorderType): Recorder? {
         var recorder: Recorder? = null
 
-        val location = Location.INDIA
+        val location = MediaType.AUDIOONLY
 
         when (location) {
-            Location.USA -> recorder = USACarFactory.buildCar(type)
+            MediaType.VIDEOONLY -> recorder = VideoFactory.buildCar(type)
 
-            Location.INDIA -> recorder = INDIACarFactory().buildCar(type)
+            MediaType.AUDIOONLY -> recorder = AudioFactory().buildCar(type)
 
             else -> recorder = buildCar(type)
         }

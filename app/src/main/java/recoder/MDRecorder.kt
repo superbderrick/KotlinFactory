@@ -1,8 +1,8 @@
-package superbderrick.github.io.kotlinfactory
+package recoder
 
 import java.sql.DriverManager.println
 
-class MDRecorder(location: Location) : Recorder(RecorderType.MEDIAPROTECTION, location) {
+class MDRecorder(mediaType: MediaType) : Recorder(RecorderType.MEDIAPROTECTION, mediaType) {
     init {
         construct()
     }

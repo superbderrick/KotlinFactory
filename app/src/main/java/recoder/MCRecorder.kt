@@ -1,9 +1,9 @@
-package superbderrick.github.io.kotlinfactory
+package recoder
 
 import java.sql.DriverManager.println
 
 
-class MCRecorder(location: Location) : Recorder(RecorderType.MIDIACODEC, location) {
+class MCRecorder(mediaType: MediaType) : Recorder(RecorderType.MIDIACODEC, mediaType) {
     init {
         construct()
     }
