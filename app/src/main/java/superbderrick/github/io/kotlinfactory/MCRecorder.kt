@@ -1,4 +1,4 @@
-package recorder
+package superbderrick.github.io.kotlinfactory
 
 import java.sql.DriverManager.println
 
@@ -9,6 +9,6 @@ class MCRecorder(location: Location) : Recorder(RecorderType.MIDIACODEC, locatio
     }
 
     override fun construct() {
-        println("Connecting to Mini car")
+        println("Created MCRecorder")
     }
 }

@@ -1,4 +1,4 @@
-package recorder
+package superbderrick.github.io.kotlinfactory
 
 import java.sql.DriverManager.println
 
@@ -8,6 +8,6 @@ class MDRecorder(location: Location) : Recorder(RecorderType.MEDIAPROTECTION, lo
     }
 
     override fun construct() {
-        println("Connecting to Micro Recorder ")
+        println("Created MDRecorder")
     }
 }

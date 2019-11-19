@@ -1,7 +1,7 @@
-package recorder
+package superbderrick.github.io.kotlinfactory
 
 
-abstract class Recorder(model: RecorderType, location: recorder.Location) {
+abstract class Recorder(model: RecorderType, location: Location) {
 
     var model: RecorderType? = null
     var location: Location? = null

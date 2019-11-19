@@ -1,4 +1,4 @@
-package recorder
+package superbderrick.github.io.kotlinfactory
 
 internal object USACarFactory {
     fun buildCar(model: RecorderType): Recorder? {
