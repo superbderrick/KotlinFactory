@@ -1,2 +1,2 @@
-# nativestudy
-nativestudy to learn c++
+# KotlinFactory
+test project to test factory pattern with kotlin..
