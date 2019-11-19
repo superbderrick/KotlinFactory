@@ -1,18 +1,16 @@
 package recorder
 
 internal object USACarFactory {
-    fun buildCar(model: CarType): Car? {
-        var car: Car? = null
+    fun buildCar(model: RecorderType): Recorder? {
+        var recorder: Recorder? = null
         when (model) {
-            CarType.MICRO -> car = MicroCar(Location.USA)
+            RecorderType.MEDIAPROTECTION -> recorder = MDRecorder(Location.USA)
 
-            CarType.MINI -> car = MiniCar(Location.USA)
-
-            CarType.LUXURY -> car = LuxuryCar(Location.USA)
+            RecorderType.MIDIACODEC -> recorder = MCRecorder(Location.USA)
 
             else -> {
             }
         }
-        return car
+        return recorder
     }
 }

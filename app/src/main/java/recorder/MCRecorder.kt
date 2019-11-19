@@ -3,12 +3,12 @@ package recorder
 import java.sql.DriverManager.println
 
 
-class LuxuryCar(location: Location) : Car(CarType.LUXURY, location) {
+class MCRecorder(location: Location) : Recorder(RecorderType.MIDIACODEC, location) {
     init {
         construct()
     }
 
     override fun construct() {
-        println("Connecting to luxury car")
+        println("Connecting to Mini car")
     }
 }

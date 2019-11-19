@@ -1,9 +1,9 @@
 package recorder
 
 
-abstract class Car(model: CarType, location: recorder.Location) {
+abstract class Recorder(model: RecorderType, location: recorder.Location) {
 
-    var model: CarType? = null
+    var model: RecorderType? = null
     var location: Location? = null
 
     init {

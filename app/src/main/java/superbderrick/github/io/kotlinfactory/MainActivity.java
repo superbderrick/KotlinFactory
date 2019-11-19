@@ -3,11 +3,9 @@ package superbderrick.github.io.kotlinfactory;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 
-import recorder.Car;
-import recorder.CarType;
-import recorder.CarFactory;
+import recorder.RecorderFactory;
+import recorder.RecorderType;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -18,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
-
+        new RecorderFactory().buildCar(RecorderType.MEDIAPROTECTION);
 
 
     }
