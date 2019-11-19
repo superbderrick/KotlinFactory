@@ -1,5 +1,5 @@
 # KotlinFactory
-test project to test factory pattern with kotlin..
+Android sample app applied factory pattern in kotlin
 
 
 Refs
